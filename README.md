@@ -47,3 +47,8 @@ Each Dockerfile variant is documented in its respective markdown file, including
 - Specific improvements and remaining issues
 
 Review each implementation to understand the progression of optimizations and choose the approach that best suits your needs.
+
+---
+
+## Volumes
+- Refer to [Volumes.md](./Volumes.md) for detailed information on volumes in Docker.

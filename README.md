@@ -1,5 +1,10 @@
 # Docker Optimization Examples
 
+
+References
+- [Blog](https://projects.100xdevs.com/tracks/docker-1/docker-1-1)
+- [Video1](https://www.youtube.com/watch?v=fSmLiOMp2qI) and [Video2](https://www.youtube.com/watch?v=KuCwrySinqI)
+
 This repository demonstrates the progressive optimization of a Dockerfile for a Node.js application through three different implementations. Each version addresses specific issues and shows improvements in build efficiency and image size.
 
 ## Repository Structure

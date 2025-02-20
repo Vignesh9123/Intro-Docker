@@ -52,3 +52,6 @@ Review each implementation to understand the progression of optimizations and ch
 
 ## Volumes
 - Refer to [Volumes.md](./Volumes.md) for detailed information on volumes in Docker.
+
+## Networks
+- Refer to [Networks.md](./Networks.md) for detailed information on networks in Docker.

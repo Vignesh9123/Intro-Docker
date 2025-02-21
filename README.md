@@ -54,9 +54,14 @@ Each Dockerfile variant is documented in its respective markdown file, including
 Review each implementation to understand the progression of optimizations and choose the approach that best suits your needs.
 
 ---
+## Commands
+- Refer to [Commands.md](./Commands.md) for useful Docker commands and tips.
 
 ## Volumes
 - Refer to [Volumes.md](./Volumes.md) for detailed information on volumes in Docker.
 
 ## Networks
 - Refer to [Networks.md](./Networks.md) for detailed information on networks in Docker.
+
+## Multi-Stage Builds
+- Refer to [Multi-Stage-Builds.md](./Multi-Stage-Builds.md) for information on using multi-stage builds in Docker.

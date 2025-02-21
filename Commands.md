@@ -65,6 +65,21 @@ docker rmi my-node-app
 docker image prune
 ```
 
+## Environment Variables  
+
+```sh
+# Run container with environment variables
+docker run -e PORT=4000 -p 4000:4000 my-node-app
+```
+
+```sh
+# Run container with environment variables from a file
+docker run --env-file .env -p 4000:4000 my-node-app
+```
+
+- The `.env` file should contain key-value pairs in the format `KEY=VALUE`.
+- There is a better way to manage environment variables using Docker Compose.
+
 ## Debugging & Logs  
 
 ```sh

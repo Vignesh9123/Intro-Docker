@@ -65,3 +65,13 @@ Review each implementation to understand the progression of optimizations and ch
 
 ## Multi-Stage Builds
 - Refer to [Multi-Stage-Builds.md](./Multi-Stage-Builds.md) for information on using multi-stage builds in Docker.
+
+## Docker Compose
+- Refer to [Docker-Compose.md](./Docker-Compose.md) for information on using Docker Compose for multi-container applications.
+
+## Road Ahead
+
+- Continue exploring Docker best practices and optimization techniques.
+- Experiment with different base images and build strategies.
+- Apply the learnings and try to dockerize your own projects for practice.
+- Try to dockerize open-source projects and contribute to their Dockerfiles if not already present/optimized.

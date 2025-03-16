@@ -13,7 +13,7 @@ This repository demonstrates the progressive optimization of a Dockerfile for a 
 - [Dockerfile2.md](./Dockerfile2.md) - Improved caching strategy
 - [Dockerfile3.md](./Dockerfile3.md) - Optimized implementation with smaller base image
 
-## Evolution of the Dockerfiles
+## Evolution of the Dockerfiles in this repo
 
 ### 1. Basic Implementation (Dockerfile1)
 - Uses `node:20` as base image

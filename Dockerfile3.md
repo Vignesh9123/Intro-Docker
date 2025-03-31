@@ -3,7 +3,8 @@
 ## Dockerfile Content
 
 ```dockerfile
-FROM mhart/alpine-node # This is the alpine image with node installed in it and is the base image; also, the size of the image is small compared to the node image in the previous Dockerfile
+FROM mhart/alpine-node 
+# This is the alpine image with node installed in it and is the base image; also, the size of the image is small compared to the node image in the previous Dockerfile
 
 WORKDIR /usr/src/app
 

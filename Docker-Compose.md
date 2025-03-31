@@ -23,7 +23,7 @@ services:
         volumes:
             - mongodb_data:/data/db
     custom_backend:
-        build:./
+        build: ./
         ports:
             - "3000:3000"
 volumes:

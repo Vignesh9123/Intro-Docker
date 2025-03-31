@@ -3,18 +3,24 @@
 ## Dockerfile Content
 
 ```dockerfile
-FROM node:20 # node:20 is the base image for this project
+FROM node:20 
+# node:20 is the base image for this project
 
-WORKDIR /usr/src/app # this refers to the working dir in the image/container
+WORKDIR /usr/src/app
+# this refers to the working dir in the image/container
 
-COPY . . # first dot refers to all files in the local system, and second dot refers to the pwd in image/container
+COPY . . 
+# first dot refers to all files in the local system, and second dot refers to the pwd in image/container
 
-RUN npm install # This is run when the image is created
+RUN npm install 
+# This is run when the image is created
 
 # ------------------- This Dockerfile contains the above 4 layers ---------------------------------
-EXPOSE 3000 # expose 3000 port of the container to local machine
+EXPOSE 3000
+# expose 3000 port of the container to local machine
 
-CMD ["node", "index.js"] # this is run when the image is converted to container
+CMD ["node", "index.js"]
+# this is run when the image is converted to container
 
 # -------------------- End of Dockerfile-------------------------------------------------
 ```

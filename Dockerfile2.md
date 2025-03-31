@@ -7,11 +7,14 @@ FROM node:20
 
 WORKDIR /usr/src/app
 
-COPY package* . # here all the files that start with `package` are copied to the image thus creating a single layer to govern the change of `package.json` and `package-lock.json` so that they are not uncached due to the change of any other file
+COPY package* . 
+# here all the files that start with `package` are copied to the image thus creating a single layer to govern the change of `package.json` and `package-lock.json` so that they are not uncached due to the change of any other file
 
-RUN npm install # This is uncached only if `package.json` or `package-lock.json` changes but remains cached if any other file changes
+RUN npm install 
+# This is uncached only if `package.json` or `package-lock.json` changes but remains cached if any other file changes
 
-COPY . . # here all the files that don't start with `package` are copied to the image
+COPY . . 
+# here all the files that don't start with `package` are copied to the image
 
 # ---------------------------- This Dockerfile contains the above 5 layers ----------------------------
 EXPOSE 3000
